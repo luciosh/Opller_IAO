@@ -63,7 +63,7 @@ void loop_opller(){
   Serial.print(pinoSensor); //IMPRIME NO MONITOR SERIAL O PERCENTUAL DE UMIDADE DO SOLO 
 
   Serial.println(UmidadePercentualLida);
-  if(UmidadePercentualLida < 30){
+  if(UmidadePercentualLida < 60){
 		ledcWrite(0, 650);
     Serial.println("Ativando motor");
 	}else{

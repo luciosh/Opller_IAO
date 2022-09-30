@@ -5,7 +5,7 @@
 int8_t TIME_ZONE = -4; //NYC(USA): -5 UTC
 //#define USE_SUMMER_TIME_DST  //uncomment to use DST
 
-const char AWS_IOT_ENDPOINT[] = " ";//"AWS-IOT -> Settings";
+const char AWS_IOT_ENDPOINT[] = "ajp0oqxg63mhj-ats.iot.us-east-2.amazonaws.com";//"AWS-IOT -> Settings";
 
 // Obtain First CA certificate for Amazon AWS
 // https://docs.aws.amazon.com/iot/latest/developerguide/managing-device-certs.html#server-authentication
